@@ -21,5 +21,7 @@ rebuilds: `docs/REBUILD.md`).
 - Delivered to the user directly, never committed: `autonomic-pictures-elsevier2.json` (21 textbook figures from the user's .ppt, keys
   `an-elsevier2-sNN` = slide NN, © Elsevier, imported in ✏️ Edit master draft; where one duplicates a lecture figure BOTH are kept — the
   user chooses later).
+- Module-local changes (in this page only, not shared patches): Revision → 🖨 Print asks "Questions only" (compact, two columns, no
+  answers) or "With answers"; the print header says "Interactive Physiology Teaching Platform". Question difficulty is 1–3 (cases 1–5).
 - Test changes on the real page with the platform repo's e2e test "Autonomic Nervous System module (autonomic)"
   (`AN_CONTENT_KEY` in the environment) and `node test/module-smoke/smoke.js` before pushing.
