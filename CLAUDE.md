@@ -18,7 +18,8 @@ rebuilds: `docs/REBUILD.md`).
   acetylcholine; noradrenaline and adrenal medulla; receptors; drugs; integration) — NO practical topic; sections sNNMM
   (24); questions q001–q133 (5-option single-best-answer); cases c01–c08; lecture figures `fig_*` (22, credit "Course
   lecture … p. N") + the original diagram `fig_saliv`; flowcharts `dx_alarm`, `dx_na`.
-- Delivered to the user directly, never committed: `autonomic-pictures-elsevier1.json` (13 textbook figures, keys
-  `an-elsevier1-01…13`, © Elsevier, imported in ✏️ Edit master draft).
+- Delivered to the user directly, never committed: `autonomic-pictures-elsevier2.json` (21 textbook figures from the user's .ppt, keys
+  `an-elsevier2-sNN` = slide NN, © Elsevier, imported in ✏️ Edit master draft; where one duplicates a lecture figure BOTH are kept — the
+  user chooses later).
 - Test changes on the real page with the platform repo's e2e test "Autonomic Nervous System module (autonomic)"
   (`AN_CONTENT_KEY` in the environment) and `node test/module-smoke/smoke.js` before pushing.
